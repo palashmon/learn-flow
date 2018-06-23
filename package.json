@@ -1,0 +1,26 @@
+{
+  "name": "learn-flow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simplest case example of Flow",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palashmon/learn-flow.git"
+  },
+  "author": "Palash Mondal <palashm@live.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palashmon/learn-flow/issues"
+  },
+  "homepage": "https://github.com/palashmon/learn-flow#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.75.0"
+  }
+}
